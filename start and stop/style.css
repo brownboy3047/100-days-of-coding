@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    /* background: #e0e0e0; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 14px 14px 20px #fff, -14px -14px 20px white;
+    margin: 200px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.number {
+    margin-bottom: 80px;
+}
+
+.one {
+    background: white;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px #e3dfde, -4px -4px 10px white;
+    padding: 20px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4d8ac0;
+}
+
+.two {
+    background: white;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px #e3dfde, -4px -4px 10px white;
+    margin: 10px;
+    padding: 20px;font-weight: 700;
+    font-size: 30px;
+    color: #4d8ac0;
+}
+
+.three {
+    background: white;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px #e3dfde, -4px -4px 10px white;
+    padding: 20px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4d8ac0;
+}
+
+.control {
+
+}
+
+.four {
+    width: 140px;
+    height: 50px;
+    border-radius: 30px/50%;
+    background-color: #3e7d9e;
+    color: #d6fbff;
+    border: none;
+}
+
+.five {
+    width: 140px;
+    height: 50px;
+    border-radius: 30px/50%;
+    background-color: #ae7623;
+    color: #d6fbff;
+    border: none;
+}
