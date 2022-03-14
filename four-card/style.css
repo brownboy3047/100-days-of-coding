@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #dddbdb;
+    height: 120vh;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+    line-height: 15px;
+}
+
+header p {
+    color: #bbbabf;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.first {
+    font-weight: 400;
+    color: #47485d;
+}
+
+.second {
+    color: #47485d;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left {
+    position: relative;
+    border-radius: 4px;
+    background: #f9f9f9;
+    padding: 10px 0 0 20px;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+    border-top: 3px solid #5fc5c7;
+}
+
+.left img {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    height: 40px;
+}
+
+.middle-up {
+    position: relative;
+    border-radius: 4px;
+    background: #f9f9f9;
+    padding: 10px 0 0 20px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-top: 3px solid #d0605e;
+}
+
+.middle-up img {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    height: 40px;
+}
+
+.middle-down {
+    position: relative;
+    border-radius: 4px;
+    background: #f9f9f9;
+    padding: 10px 0 0 20px;
+    width: 300px;
+    height: 200px;
+    border-top: 3px solid #fcae4a;
+}
+
+.middle-down img {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    height: 40px;
+}
+
+.right {
+    position: relative;
+    border-radius: 4px;
+    background: #f9f9f9;
+    padding: 10px 0 0 20px;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+    border-top: 3px solid #649ad8;
+}
+
+.right img {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    height: 40px;
+}
+
+.left p,
+.right p,
+.middle-up p,
+.middle-down p {
+    color: #bbbabf;
+    font-size: 10px;
+}
+
+.left h3,
+.right h3,
+.middle-up h3,
+.middle-down h3 {
+    color: #575966;
+    font-size: 13px;
+}
+
+footer {
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+}
