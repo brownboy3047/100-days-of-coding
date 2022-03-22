@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/bg-desktop.svg");
+    background-color: #674bb1;
+}
+
+header img {
+    height: 40px;
+    margin: 30px 0 0 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.mockups img {
+    height: 400px;
+}
+
+.page-text {
+    padding-bottom: 130px;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.page-text h1,
+.page-text p {
+    color: #fffeff;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    color: #6e6294;
+}
+
+.face {
+    position: absolute;
+    bottom: 20px;
+    right: 120px;
+    width: 20px;
+}
+
+.twit {
+    position: absolute;
+    bottom: 20px;
+    right: 90px;
+    width: 20px;
+}
+
+.insta {
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    width: 20px;
+}
