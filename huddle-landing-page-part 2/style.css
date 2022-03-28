@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: #edfbfe;
+}
+
+.head-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px 25px 40px;
+    padding: 25px 25px 0 0;
+}
+
+.head-link img {
+    height: 20px;
+}
+
+.first-btn {
+    background: #ffffff;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+
+.head-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.head-right {
+    align-self: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.second-btn,
+.third-btn {
+    height: 40px;
+    width: 250px;
+    color: #ffffff;
+    background-color: #fe52c0;
+    border: none;
+    border-radius: 50px;
+}
+
+.head-left {
+    padding-right: 20px;
+}
+
+main {
+    height: 160vh;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ebf0f1;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin: 80px 50px 20px 50px;
+    padding: 0 20px 0 100px;
+    height: 300px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ebf0f1;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin: 0 50px;
+    padding: 0 20px 0 100px;
+    height: 300px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ebf0f1;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin: 20px 50px;
+    padding: 0 20px 0 100px;
+    height: 300px;
+}
+
+.build {
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ebf0f1;
+    background-color: #ffffff;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 30%;
+}
+
+
+footer {
+    background: #00252e;
+    padding: 80px;
+}
+
+.foot-main {
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    align-items: baseline;
+}
+
+.foot-logo {
+    padding: 20px;
+}
+
+.f-one,
+.f-two,
+.f-three {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.foot-two ul li,
+.foot-three ul li {
+    list-style: none;
+}
+
+.foot-two ul li a,
+.foot-three ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
