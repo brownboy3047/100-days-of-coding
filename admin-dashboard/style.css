@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e4e2e3;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+.nav-link {
+    padding-left: 3px;
+}
+
+
+.nav-link li {
+    margin: 30px 0;
+    list-style: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+.db span,
+.an span,
+.msg span,
+.pd span,
+.rp span,
+.set span,
+.add span {
+    color: #979598;
+}
+
+.ct span,
+.or span {
+    color: #767ee0;
+}
+
+.overview-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sales {
+    background-color: #f3f2f2;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 250px;
+    padding-left: 20px;
+}
+
+.expenses {
+    background-color: #f3f2f2;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 250px;
+    padding-left: 20px;
+    margin: 0 10px;
+}
+
+.income {
+    background-color: #f3f2f2;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 250px;
+    padding-left: 20px;
+
+}
+
+table {
+    width: 800px;
+    /* height: 400px; */
+    background-color: #f3f2f2;
+    margin-top: 30px;
+    padding-top: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+thead tr th {
+    padding-left: 30px;
+}
+
+tbody tr td {
+    padding: 10px 0 10px 50px;
+}
+
+.pend {
+    color: #dacfb9;
+}
+
+.details {
+    color: #7478d1;
+}
+
+
+.admin {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 100px;
+    margin-top: 0;
+}
+
+.admin img {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.update-list {
+    list-style: none;
+    padding-left: 5px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background-color: #f3f2f2;
+    border-radius: 20px;
+    height: 320px;
+    width: 300px;
+    padding: 20px;
+}
+
+.update-list li img {
+    width: 20px;
+    border-radius: 50%;
+}
+
+.update-list li span {
+    padding-left: 4px;
+}
+
+.online,
+.offline,
+.new {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background-color: #f3f2f2;
+    border-radius: 20px;
+    height: 60px;
+    padding: 10px 0 30px 10px;
+}
+
+.offline {
+    margin: 5px 0;
+}
