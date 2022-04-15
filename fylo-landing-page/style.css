@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px 20px 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    width: 100px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444353;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px 50px 50px;
+}
+
+.inp {
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.btn {
+    height: 30px;
+    width: 150px;
+    background-color: #2f65f9;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 120px 50px 50px;
+    background-image: url(./images/bg-curve-desktop.svg);
+}
+
+.section-two_left_part_one a {
+    text-decoration: none;
+    border-bottom: 1px solid #42a893;
+    color: #42a893;
+}
+
+.section-two_left_part_two {
+    margin-top: 40px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    height: 220px;
+    width: 320px;
+    padding: 20px 0 0 20px;
+}
+
+.section-two_left_part_two_test {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.section-two_left_part_two_test img {
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.section-two_left_part_two_test div {
+    line-height: 0;
+}
+
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    height: 250px;
+    padding: 0 120px 0 50px;
+    background-color: #575989;
+}
+
+.section-three_left h3,
+.section-three_left p {
+    color: #fff;
+}
+
+.section-three_right input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+
+}
+
+.section-three_right button {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2f65f9;
+    color: #fff;
+}
